@@ -4,6 +4,8 @@ Install & configure fail2ban on syslog server to block traffic at the fortigate 
 Based on this Fortinet Forum note: https://forum.fortinet.com/tm.aspx?m=138845
 And on https://github.com/eoprede/fortigate_api
 Note: assumes you already have fail2ban installed and running
+
+Prerequisites: python modules: requests 
 Configure fail2ban
 sudo cp -p /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 sudo cp -p /etc/fail2ban/jail.local /etc/fail2ban/jail.local.stock
@@ -59,6 +61,3 @@ status
 This should list all the jails 
 For each jail: status <Jail Name>
 Will list the status of the jail, the filter status and the action status
-
-H:\Documents\Security\Install fail2ban on syslog server.docx	Page 6 of 6
-

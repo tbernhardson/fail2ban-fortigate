@@ -17,7 +17,7 @@
 #       Change USERCODE to the usercode you setup on the Fortigate
 #       Change PASSWORD to the password of the above account
 #       Change VDOMNAME to the VDOM you are using
-#       Chanbe IPADDRESS to the IP Address of the FOrtigate
+#       Change IPADDRESS to the IP Address of the Fortigate
 #
 
 import getpass
@@ -37,7 +37,7 @@ sVDOM="VDOMNAME"
 sGroup="ZONE_IP_Blacklist"
 sFGTUC="USERCODE"
 sFGTPW="PASSWORD"
-sIPPrefix="BL_ZONE"
+sIPPrefix="BL_ZONE_IP_"
 
 #
 # Fortigate API Class/Defines

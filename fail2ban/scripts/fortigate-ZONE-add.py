@@ -18,7 +18,7 @@
 #       Change USERCODE to the usercode you setup on the Fortigate
 #       Change PASSWORD to the password of the above account
 #       Change VDOMNAME to the VDOM you are using
-#       Chanbe IPADDRESS to the IP Address of the FOrtigate
+#       Change IPADDRESS to the IP Address of the Fortigate
 #
 import getpass
 import json
